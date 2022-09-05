@@ -22,7 +22,7 @@ def main():
 Let's try again, {name}!""")
                 return
             else:
-                print(f"""is wrong answer ;(. Correct answer was 'yes'.
+                print(f"""'{answer}' is wrong answer ;(. Correct answer was 'yes'.
 Let's try again, {name}!""")
                 return
         elif random_number % 2 != 0:
@@ -34,7 +34,7 @@ Let's try again, {name}!""")
 Let's try again, {name}!""")
                 return
             else:
-                print(f"""is wrong answer ;(. Correct answer was 'no'.
+                print(f"""'{answer}' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, {name}!""")
                 return
     if i == 3:
